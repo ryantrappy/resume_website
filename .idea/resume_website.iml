@@ -4,5 +4,8 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="handlebars-v4.4.3" level="application" />
+    <orderEntry type="library" name="chat" level="application" />
+    <orderEntry type="library" name="socket.io" level="application" />
   </component>
 </module>
