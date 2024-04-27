@@ -28,7 +28,7 @@
         "jquery.easing": "^1.4.1"
     },
     "devDependencies": {
-        "browser-sync": "^2.29.1",
+        "browser-sync": "^3.0.2",
         "del": "^5.1.0",
         "gulp": "^4.0.2",
         "gulp-autoprefixer": "^8.0.0",
