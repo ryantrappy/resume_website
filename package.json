@@ -5,27 +5,15 @@
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+    "description": "Simple resume website for Ryan Trapp.",
     "keywords": [],
-    "homepage": "https://startbootstrap.com/template-overviews/resume",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
-        "email": "feedback@startbootstrap.com"
-    },
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
-    },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",
-        "bootstrap": "^5.0.0",
-        "jquery": "^3.5.0",
-        "jquery.easing": "^1.4.1"
+        "bootstrap": "^5.3.3",
+        "jquery": "^3.7.1",
+        "jquery.easing": "^1.4.1",
+        "sass": "^1.85.1"
     },
     "devDependencies": {
         "browser-sync": "^3.0.3",
@@ -38,6 +26,7 @@
         "gulp-rename": "^2.0.0",
         "gulp-sass": "^5.1.0",
         "gulp-uglify": "^3.0.2",
+        "sass": "^1.85.1",
         "merge-stream": "^2.0.0"
     }
 }
