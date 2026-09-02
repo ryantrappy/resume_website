@@ -1,9 +1,8 @@
-#### Gulp Tasks
+#### Vite Workflow
 
-- `gulp` the default task that builds everything
-- `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
+- `npm install` installs the project dependencies
+- `npm run dev` starts the Vite development server with hot reloading
+- `npm run build` creates a production build in `dist/`
+- `npm run preview` serves the production build locally for verification
 
-You must have npm installed globally in order to use this build environment.
+This project uses Bootstrap, Sass, and Font Awesome through npm packages, so there is no longer any gulp-based asset pipeline or checked-in vendor bundle.

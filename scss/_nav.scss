@@ -1,3 +1,6 @@
+@use 'variables' as *;
+@use 'sass:color';
+
 #sideNav {
   .navbar-nav .nav-item .nav-link {
     font-weight: 800;
@@ -6,7 +9,7 @@
   }
   .navbar-toggler {
     &:focus {
-      outline-color: lighten($primary, 15%);
+      outline-color: color.adjust($primary, $lightness: 15%);
     }
   }
 }
@@ -31,7 +34,7 @@
       .img-profile {
         max-width: 10rem;
         max-height: 10rem;
-        border: 0.5rem solid fade-out($white, 0.8);
+        border: 0.5rem solid rgba($white, 0.2);
       }
     }
     .navbar-collapse {

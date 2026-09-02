@@ -1,9 +1,9 @@
-@import "variables.scss";
-@import "mixins.scss";
-@import "global.scss";
-@import "nav.scss";
-@import "resume-item.scss";
-@import "bootstrap-overrides.scss";
+@use 'variables' as *;
+@use 'mixins' as *;
+@use 'global';
+@use 'nav';
+@use 'resume-item';
+@use 'bootstrap-overrides';
 
 .tab {
   margin-left: 20px;

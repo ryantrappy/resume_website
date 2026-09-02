@@ -10,20 +10,11 @@
 
   <title>Ryan Trapp Resume</title>
 
-	<!-- Bootstrap core CSS -->
-	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-	<!-- Custom fonts for this template -->
-	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-	<!-- Custom styles for this template -->
-	<link href="css/resume.min.css" rel="stylesheet">
+	<!-- Vite will process the app CSS entry point from src/main.js -->
 
 </head>
 
-<body id="page-top">
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#sideNav" data-bs-offset="0">
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
 	<a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -33,7 +24,7 @@
       </span>
 	</a>
 	<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
-			data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+			data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" type="button">
 		<span class="navbar-toggler-icon"></span>
 	</button>
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -274,7 +265,7 @@
 					<i class="fab fa-java" title="Java"></i>
 				</li>
 				<li class="list-inline-item">
-					<i class="fab fa-swift"title="Swift"></i>
+					<i class="fab fa-swift" title="Swift"></i>
 				</li>
 				<li class="list-inline-item">
 					<i class="fab fa-python" title="Python"></i>
@@ -283,7 +274,7 @@
 					<i class="fab fa-html5" title="HTML5"></i>
 				</li>
 				<li class="list-inline-item">
-					<i class="fab fa-css3-alt"title="CSS3"></i>
+					<i class="fab fa-css3-alt" title="CSS3"></i>
 				</li>
 				<li class="list-inline-item">
 					<i class="fab fa-angular" title="Angular"></i>
@@ -366,15 +357,7 @@
 
 </div>
 
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-<!-- Plugin JavaScript -->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-<!-- Custom scripts for this template -->
-<script src="js/resume.min.js"></script>
+<script type="module" src="/src/main.js"></script>
 
 </body>
 

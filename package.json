@@ -2,31 +2,22 @@
     "title": "Ryan Trapp's Resume",
     "name": "ryantrapp-resume",
     "version": "1.0.0",
+    "private": true,
+    "type": "module",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "dev": "vite --host",
+        "build": "vite build",
+        "preview": "vite preview --host"
     },
     "description": "Simple resume website for Ryan Trapp.",
     "keywords": [],
     "license": "MIT",
     "dependencies": {
-        "@fortawesome/fontawesome-free": "5.10.2",
-        "bootstrap": "^5.3.3",
-        "jquery": "^3.7.1",
-        "jquery.easing": "^1.4.1",
-        "sass": "^1.85.1"
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "bootstrap": "^5.3.3"
     },
     "devDependencies": {
-        "browser-sync": "^3.0.3",
-        "del": "^5.1.0",
-        "gulp": "^5.0.0",
-        "gulp-autoprefixer": "^8.0.0",
-        "gulp-clean-css": "^4.3.0",
-        "gulp-header": "^2.0.9",
-        "gulp-plumber": "^1.2.1",
-        "gulp-rename": "^2.0.0",
-        "gulp-sass": "^5.1.0",
-        "gulp-uglify": "^3.0.2",
-        "sass": "^1.85.1",
-        "merge-stream": "^2.0.0"
+        "sass": "^1.103.1",
+        "vite": "^8.2.2"
     }
 }
